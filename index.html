@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sadman Sadik Khan | AI/ML Researcher & Lecturer</title>
+<meta name="description" content="Portfolio of Sadman Sadik Khan — Lecturer (CSE) and AI/ML Researcher at Daffodil International University. 52 peer-reviewed publications in Computer Vision, NLP, and Deep Learning." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Animated background canvas -->
+<canvas id="bg-canvas"></canvas>
+
+<!-- ===== NAVBAR ===== -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#home" class="nav-logo">SSK</a>
+    <button id="navToggle" class="nav-toggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+      <li><a href="#publications" class="nav-link" data-section="publications">Publications</a></li>
+      <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+      <li><a href="#education" class="nav-link" data-section="education">Education</a></li>
+      <li><a href="#experience" class="nav-link" data-section="experience">Experience</a></li>
+      <li><a href="#training" class="nav-link" data-section="training">Trainings & Certificates</a></li>
+      <li><a href="#activities" class="nav-link" data-section="activities">Activities</a></li>
+      <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+      <li><a href="#cv" class="nav-link" data-section="cv">CV</a></li>
+      <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+
+  <!-- ===== HERO / HOME ===== -->
+  <section id="home" class="section hero-section">
+    <div class="hero-orb orb1"></div>
+    <div class="hero-orb orb2"></div>
+    <div class="container hero-content">
+      <div class="hero-badge">
+        <span class="pulse-dot"></span>
+        Open to PhD Opportunities
+      </div>
+      <div class="hero-grid">
+        <div class="hero-avatar-wrap">
+          <img src="profile.jpg" alt="Sadman Sadik Khan" class="hero-avatar-img" />
+        </div>
+        <div class="hero-text">
+          <h1 class="hero-name">Sadman Sadik Khan</h1>
+          <p class="hero-title">Lecturer (CSE) &amp; AI/ML Researcher</p>
+          <p class="hero-org">Department of Business Administration · Daffodil International University, Bangladesh</p>
+
+          <div class="hero-stats" id="heroStats">
+            <div class="stat-card">
+              <div class="stat-num" data-target="53">0</div>
+              <div class="stat-label">Publications</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-num" id="statCitations" data-target="0">0</div>
+              <div class="stat-label">Citations</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-num" id="statReads" data-target="0">0</div>
+              <div class="stat-label">RG Reads</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-num" data-target="35">0</div>
+              <div class="stat-label">IEEE Papers</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-num" data-target="13">0</div>
+              <div class="stat-label">Springer</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-num" data-target="3">0</div>
+              <div class="stat-label">Taylor &amp; Francis</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-num" data-target="1">0</div>
+              <div class="stat-label">Book</div>
+            </div>
+          </div>
+
+          <div class="hero-links" id="heroLinks">
+            <!-- Populated dynamically by script.js from the PROFILES config -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator"><span></span></div>
+  </section>
+
+  <!-- ===== NEWS TICKER ===== -->
+  <section class="news-strip">
+    <div class="container">
+      <span class="news-tag">News</span>
+      <div class="news-list">
+        <div class="news-item"><span class="news-date">March 2026</span><span>Co-authored Bangla ML/DL book published: "Machine Learning theke Deep Learning" (ISBN: 978-984-37-0559-4)</span></div>
+        <div class="news-item"><span class="news-date">April 2026</span><span>Two papers accepted at IEEE AISEI 2026 on Bangla Speech Classification and Road Cleanliness Detection</span></div>
+        <div class="news-item"><span class="news-date">January 2026</span><span>Joined as Lecturer (CSE) in the Department of Business Administration at DIU</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT / SUMMARY ===== -->
+  <section class="section about-section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <p class="section-subtitle">Research Profile &amp; Summary</p>
+
+      <div class="about-single">
+        <div class="about-card glass-card">
+          <p class="about-text">
+            Lecturer and early-career researcher in Computer Science &amp; Engineering with a focused research
+            agenda in Computer Vision, Graph Neural Networks (GNNs), and Large Language Models (LLMs). Developed
+            and evaluated deep learning systems for visual understanding across medical imaging, agricultural
+            diagnostics, and intelligent sensing applications, involving data from X-ray, CT, MRI, retinal,
+            microscopic, and thermal modalities. Research contributions emphasize lightweight and hybrid
+            CNN–Vision Transformer architectures, attention mechanisms, and explainable AI techniques
+            (e.g., Grad-CAM) for robust and interpretable visual recognition. Published 52 peer-reviewed papers
+            and co-authored a Bangla ML/DL book. Seeking a PhD position to pursue rigorous research on advanced
+            vision and vision–language architectures, graph-structured learning, and interpretable AI systems
+            with real-world impact.
+          </p>
+        </div>
+      </div>
+
+      <h3 class="subhead">Research Interests</h3>
+      <div class="tag-cloud" id="interestCloud">
+        <span class="interest-tag">Machine Learning &amp; Deep Learning</span>
+        <span class="interest-tag">Computer Vision</span>
+        <span class="interest-tag">Vision Transformers (ViT)</span>
+        <span class="interest-tag">Convolutional Neural Networks (CNNs)</span>
+        <span class="interest-tag">Graph Neural Networks (GNNs)</span>
+        <span class="interest-tag">Large Language Models (LLMs)</span>
+        <span class="interest-tag">Multimodal Vision-Language Models</span>
+        <span class="interest-tag">Explainable AI (XAI)</span>
+        <span class="interest-tag">Medical &amp; Agricultural Image Analysis</span>
+        <span class="interest-tag">Hybrid CNN-Transformer Architectures</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PUBLICATIONS ===== -->
+  <section id="publications" class="section">
+    <div class="container">
+      <h2 class="section-title">Publications</h2>
+      <p class="section-subtitle">53 book & peer-reviewed papers · IEEE · Springer · Taylor &amp; Francis</p>
+
+      <div class="filter-row" id="pubFilters">
+        <button class="filter-btn active" data-filter="all">All (53)</button>
+        <button class="filter-btn" data-filter="conference">Conference</button>
+        <button class="filter-btn" data-filter="journal">Journal</button>
+        <button class="filter-btn" data-filter="book">Book</button>
+        <button class="filter-btn" data-filter="preprint">Preprint</button>
+      </div>
+
+      <div id="pubContainer"></div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section alt-bg">
+    <div class="container">
+      <h2 class="section-title">Projects &amp; Research</h2>
+      <p class="section-subtitle">Key research projects and systems developed</p>
+      <div class="projects-grid" id="projectsGrid"></div>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION ===== -->
+  <section id="education" class="section">
+    <div class="container narrow">
+      <h2 class="section-title">Education</h2>
+      <p class="section-subtitle">Academic qualifications and degrees</p>
+      <div id="educationList"></div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section id="experience" class="section alt-bg">
+    <div class="container narrow">
+      <h2 class="section-title">Job Experience</h2>
+      <p class="section-subtitle">Academic appointments and professional roles</p>
+      <div class="timeline" id="experienceTimeline"></div>
+    </div>
+  </section>
+
+  <!-- ===== TRAINING & CERTS ===== -->
+  <section id="training" class="section">
+    <div class="container">
+      <h2 class="section-title">Training &amp; Certifications</h2>
+      <p class="section-subtitle">Professional development, training received, and credentials</p>
+      <h3 class="subhead">Trainings Received</h3>
+      <div class="projects-grid" id="trainingGrid"></div>
+      <h3 class="subhead">Certificates</h3>
+      <div class="cert-gallery" id="certGallery"></div>
+    </div>
+  </section>
+
+  <!-- ===== ACTIVITIES ===== -->
+  <section id="activities" class="section alt-bg">
+    <div class="container">
+      <h2 class="section-title">Extra-Curricular Activities</h2>
+      <p class="section-subtitle">Training, Leadership, Events, and Community involvement</p>
+      <div id="activitiesContainer"></div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <p class="section-subtitle">Technical expertise and research capabilities</p>
+      <div id="skillsContainer"></div>
+    </div>
+  </section>
+
+  <!-- ===== CV VIEWER ===== -->
+  <section id="cv" class="section alt-bg">
+    <div class="container">
+      <h2 class="section-title">Curriculum Vitae</h2>
+      <p class="section-subtitle">Full academic CV — view page by page or download</p>
+      <div class="cv-viewer-toolbar">
+        <div class="cv-nav-btns">
+          <button id="cvPrevBtn" class="cv-nav-btn" disabled>← Prev</button>
+          <span class="cv-page-info" id="cvPageInfo">Page 1 of …</span>
+          <button id="cvNextBtn" class="cv-nav-btn">Next →</button>
+        </div>
+        <a href="Sadman_Sadik_Khan_CV.pdf" download class="btn-primary cv-download-btn">↓ Download CV</a>
+      </div>
+      <div class="cv-pages-wrap" id="cvPagesWrap">
+        <canvas id="cvCanvas1" class="cv-canvas"></canvas>
+        <canvas id="cvCanvas2" class="cv-canvas"></canvas>
+      </div>
+      <div class="cv-viewer-toolbar cv-bottom-bar">
+        <div class="cv-nav-btns">
+          <button id="cvPrevBtn2" class="cv-nav-btn" disabled>← Prev</button>
+          <span class="cv-page-info" id="cvPageInfo2">Page 1 of …</span>
+          <button id="cvNextBtn2" class="cv-nav-btn">Next →</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section">
+    <div class="container narrow">
+      <h2 class="section-title">Contact</h2>
+      <p class="section-subtitle">Get in touch for research collaboration or opportunities</p>
+      <div class="contact-grid" id="contactGrid">
+        <!-- Populated dynamically by script.js from the PROFILES config -->
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>
+    &copy; <span id="year"></span> <strong>Sadman Sadik Khan</strong> &nbsp;
+  </p>
+</footer>
+
+<button id="backToTop" aria-label="Back to top">↑</button>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script>pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';</script>
+<script src="script.js"></script>
+</body>
+</html>
