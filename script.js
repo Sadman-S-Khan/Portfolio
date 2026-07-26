@@ -6,12 +6,12 @@
 const PROFILES = {
   googleScholar: {
     url: "https://scholar.google.com/citations?user=ODMTqK0AAAAJ&hl=en&oi=ao",
-    citations: 163,
+    citations: 161,
   },
   researchGate: {
     url: "https://www.researchgate.net/profile/Sadman-Khan-4",
-    reads: 7200,
-    citations: 66,
+    reads: 7300,
+    citations: 152,
   },
   orcid: {
     url: "https://orcid.org/0009-0003-7727-2047",
