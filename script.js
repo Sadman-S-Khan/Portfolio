@@ -10,7 +10,7 @@ const PROFILES = {
   },
   researchGate: {
     url: "https://www.researchgate.net/profile/Sadman-Khan-4",
-    reads: 7300,
+    reads: 7400,
     citations: 152,
   },
   orcid: {
@@ -130,7 +130,7 @@ const DATA = {
       title: "Reviewer – 3rd International Conference on Machine Intelligence and Emerging Technologies (MIET 2026)",
       type: "Certificate of Reviewing",
       issuer: "MIET 2026, Noakhali Science and Technology University (NSTU)",
-      year: "8 - 9 October 2026",
+      year: "July 2026",
       description: "Served as a Reviewer for the 3rd International Conference on Machine Intelligence and Emerging Technologies (MIET 2026), organized by Noakhali Science and Technology University (NSTU), Bangladesh, and held on 8–9 October 2026. Contributed to the peer-review process by evaluating submitted research papers and supporting the conference's commitment to maintaining high academic and research standards.",
       image: "cert-miet-reviewer.jpg",
       link: "",
