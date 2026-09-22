@@ -10,7 +10,7 @@ const PROFILES = {
   },
   researchGate: {
     url: "https://www.researchgate.net/profile/Sadman-Khan-4",
-    reads: 7900,
+    reads: 8000,
     citations: 137,
   },
   orcid: {
